@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>計算</title>
+    <title>掲示板</title>
 </head>
 <body>
-    <input type="text" name="sainhyou">
+    <h1>掲示板サイト</h1>
+    <section>
+        <form action="" method="POST" class="">
+            <label for="name" class="label">ユーザー名</label>
+            <input type="text" name="name" value=""><br>
+            <div class="new">
+                <label for="toukou" class="label">新しい投稿</label>
+                <textarea name="toukou" id="" cols="33" rows="3" maxlength="60" placeholder="60文字以内で入力してください"></textarea><br>
+
+            </div>
+            <input type="submit" value="送信"><hr> <!--アンダーライン-->
+        </form>
+    </section>
+    <section>
+        <h2>投稿一覧</h2>
+    </section>
 </body>
 </html>
